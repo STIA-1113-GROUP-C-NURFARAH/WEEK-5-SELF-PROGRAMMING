@@ -1,0 +1,17 @@
+package selfProgramming_1;
+import java.util.Scanner;
+public class Vote1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Single selection using if statement
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your age: "); //print to enter age
+		int age = sc.nextInt();
+		
+		if(age>20) //read age
+			System.out.println("You are entitle to vote."); //print message
+	}
+
+}
