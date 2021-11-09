@@ -1,0 +1,21 @@
+package selfProgramming_1;
+import java.util.Scanner;
+public class PosNegZero {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Multiple selection using if else/if statement
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter a number: ");
+		double num = sc.nextDouble();
+		
+		if(num<0)
+			System.out.print("Negative number.");
+			else if (num>0)
+			System.out.print("Positive number.");	
+			else 
+				System.out.print("Zero number");
+	}
+
+}
