@@ -1,0 +1,30 @@
+package selfProgramming_1;
+
+import java.util.Scanner;
+
+public class StudentGrade {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Multiple selection using if else/if statement
+		Scanner sc = new Scanner(System.in);
+		double mark =0; char grade;
+		
+		System.out.println("Enter a mark: ");
+		mark = sc.nextDouble();
+
+		if(mark>=80)
+			grade = 'A';
+			else if (mark>=70)
+			grade = 'B';	
+			else if (mark>=50)
+				grade = 'C';	
+			else if (mark>=40)
+				grade = 'D';	
+			else 
+				grade = 'F';	
+			
+		System.out.println("Grade: " + grade);
+	}
+
+}
