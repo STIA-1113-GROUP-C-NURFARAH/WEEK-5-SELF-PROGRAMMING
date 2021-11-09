@@ -1,0 +1,20 @@
+package selfProgramming_1;
+
+import java.util.Scanner;
+
+public class Pass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Single selection using if statement
+		
+	Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your mark: "); //print to enter mark
+		int mark = sc.nextInt();
+		
+		if(mark>=40) //read mark
+			System.out.println("PASS"); //print message
+	}
+
+}
