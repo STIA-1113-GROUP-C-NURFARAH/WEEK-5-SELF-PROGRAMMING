@@ -1,3 +1,11 @@
 Enter a year:
 2008
 2008 is a leap year? true
+
+Enter a year:
+1900
+1900 is a leap year? false
+
+Enter a year:
+2002
+2002 is a leap year? false
